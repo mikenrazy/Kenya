@@ -1,0 +1,76 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+/*  background: rgb(0, 0, 0); /* Fallback color */
+/*  background: rgba(0, 0, 0, 0.5);*/
+}
+
+.bg {
+  /* The image used */
+  background-image: url("Kenya-Flag.jpg");
+
+  /* Full height */
+  height: inherit;
+  opacity:0.9;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  position: absolute;
+  height: 100%;
+  margin:inherit;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: white; /* Grey text */
+  /* Full width */
+  padding: 10px; /* Some padding */
+}
+* {
+  box-sizing: border-box;
+}
+
+.c {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+
+}
+
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
